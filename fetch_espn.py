@@ -94,7 +94,7 @@ def positions(player):
 
 
 def row_for(player):
-    season, l7, l15 = split(player, 0), split(player, 1), split(player, 2)
+    season, l7, l15, l30 = split(player, 0), split(player, 1), split(player, 2), split(player, 3)
     own = (player.get("ownership") or {}).get("percentOwned")
     return {
         "player": player.get("fullName"),
@@ -104,6 +104,7 @@ def row_for(player):
         "gp": season["gp"], "avg": season["avg"], "mpg": season["mpg"],
         "l7_gp": l7["gp"], "l7_avg": l7["avg"],
         "l15_gp": l15["gp"], "l15_avg": l15["avg"],
+        "l30_gp": l30["gp"], "l30_avg": l30["avg"],
         "pct_owned": round(own, 1) if isinstance(own, (int, float)) else "",
         "espn_id": player.get("id"),
     }
@@ -125,6 +126,20 @@ def main():
     for t in base.get("teams") or []:
         name = t.get("name") or f"{t.get('location', '')} {t.get('nickname', '')}".strip()
         team_names[t["id"]] = name
+
+    # ---- Team moves (streaming tendencies) ---------------------------------------
+    trows = []
+    for t in base.get("teams") or []:
+        tc = t.get("transactionCounter") or {}
+        per = tc.get("matchupAcquisitionTotals") or {}
+        trows.append({"team_id": t["id"], "team": team_names.get(t["id"], ""),
+                      "acquisitions_season": tc.get("acquisitions", ""),
+                      "drops_season": tc.get("drops", ""), "trades_season": tc.get("trades", ""),
+                      "acquisitions_this_matchup": per.get(str(mp), per.get(mp, 0)),
+                      "acquisitions_by_matchup": json.dumps(per, sort_keys=True)})
+    write_csv(os.path.join(OUT, "teams.csv"), trows,
+              ["team_id", "team", "acquisitions_season", "drops_season", "trades_season",
+               "acquisitions_this_matchup", "acquisitions_by_matchup"])
 
     stat_ids = [f"00{SEASON}", f"01{SEASON}", f"02{SEASON}", f"03{SEASON}"]
 
@@ -160,7 +175,7 @@ def main():
     fa = fa[:150]
     write_csv(os.path.join(OUT, "free_agents.csv"), fa,
               ["player", "nba", "pos", "status", "waiver_clears_utc", "injury", "gp", "avg",
-               "mpg", "l7_gp", "l7_avg", "l15_gp", "l15_avg", "pct_owned", "espn_id"])
+               "mpg", "l7_gp", "l7_avg", "l15_gp", "l15_avg", "l30_gp", "l30_avg", "pct_owned", "espn_id"])
 
     # ---- All rosters -----------------------------------------------------------
     # Source of truth = the player-pool query (same fresh endpoint as free agents):
@@ -204,7 +219,7 @@ def main():
     rows.sort(key=lambda r: (r["team_id"], -(r["avg"] if r["avg"] != "" else -99)))
     write_csv(os.path.join(OUT, "rosters.csv"), rows,
               ["team_id", "team", "player", "nba", "pos", "slot", "injury", "gp", "avg", "mpg",
-               "l7_gp", "l7_avg", "l15_gp", "l15_avg", "pct_owned", "espn_id"])
+               "l7_gp", "l7_avg", "l15_gp", "l15_avg", "l30_gp", "l30_avg", "pct_owned", "espn_id"])
 
     # ---- Matchup scores --------------------------------------------------------
     mdata = get([("view", "mMatchupScore"), ("scoringPeriodId", sp)])
