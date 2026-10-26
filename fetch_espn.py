@@ -163,15 +163,44 @@ def main():
                "mpg", "l7_gp", "l7_avg", "l15_gp", "l15_avg", "pct_owned", "espn_id"])
 
     # ---- All rosters -----------------------------------------------------------
-    rdata = get([("view", "mRoster"), ("scoringPeriodId", sp)])
+    # Source of truth = the player-pool query (same fresh endpoint as free agents):
+    # every ONTEAM player with his onTeamId. mRoster is cached by ESPN and can lag
+    # adds/drops by hours, so it is only used to fill in lineup slots.
+    slots = {}
+    rdata = {}
+    try:
+        rdata = get([("view", "mRoster"), ("scoringPeriodId", sp)])
+        for t in rdata.get("teams") or []:
+            for e in (t.get("roster") or {}).get("entries") or []:
+                pid = ((e.get("playerPoolEntry") or {}).get("player") or {}).get("id")
+                slots[pid] = (t["id"], SLOTS.get(e.get("lineupSlotId"), e.get("lineupSlotId")))
+    except Exception as e:
+        print(f"mRoster failed: {e}", file=sys.stderr)
+    filt = {"players": {
+        "filterStatus": {"value": ["ONTEAM"]},
+        "filterStatsForTopScoringPeriodIds": {"value": 2, "additionalValue": stat_ids},
+        "sortPercOwned": {"sortAsc": False, "sortPriority": 1},
+        "limit": 300, "offset": 0}}
+    odata = get([("view", "kona_player_info"), ("scoringPeriodId", sp)], filt)
     rows = []
-    for t in rdata.get("teams") or []:
-        for e in (t.get("roster") or {}).get("entries") or []:
-            p = (e.get("playerPoolEntry") or {}).get("player") or {}
-            r = row_for(p)
-            r.update({"team_id": t["id"], "team": team_names.get(t["id"], ""),
-                      "slot": SLOTS.get(e.get("lineupSlotId"), e.get("lineupSlotId"))})
-            rows.append(r)
+    for e in odata.get("players") or []:
+        tid = e.get("onTeamId")
+        if e.get("status") != "ONTEAM" or not tid:
+            continue
+        p = e.get("player") or {}
+        r = row_for(p)
+        slot_tid, slot = slots.get(p.get("id"), (None, ""))
+        r.update({"team_id": tid, "team": team_names.get(tid, ""),
+                  "slot": slot if slot_tid == tid else "NEW"})  # NEW = just added
+        rows.append(r)
+    if not rows:  # fall back to mRoster if the pool query returned nothing
+        for t in rdata.get("teams") or []:
+            for e in (t.get("roster") or {}).get("entries") or []:
+                p = (e.get("playerPoolEntry") or {}).get("player") or {}
+                r = row_for(p)
+                r.update({"team_id": t["id"], "team": team_names.get(t["id"], ""),
+                          "slot": SLOTS.get(e.get("lineupSlotId"), e.get("lineupSlotId"))})
+                rows.append(r)
     rows.sort(key=lambda r: (r["team_id"], -(r["avg"] if r["avg"] != "" else -99)))
     write_csv(os.path.join(OUT, "rosters.csv"), rows,
               ["team_id", "team", "player", "nba", "pos", "slot", "injury", "gp", "avg", "mpg",
