@@ -1,9 +1,9 @@
 team_id,team,acquisitions_season,drops_season,trades_season,acquisitions_this_matchup,acquisitions_by_matchup
 1,You Got Serbed,1,0,0,0,"{""1"": 1}"
 2,Siward’s super team ,2,2,0,0,"{""1"": 2}"
-3,Newman,4,3,0,0,"{""1"": 4}"
+3,Newman,5,4,0,1,"{""1"": 4, ""2"": 1}"
 4,Dylan's Daring Team,3,2,0,0,"{""1"": 3}"
 5,Ben's Best Crew,2,2,0,1,"{""1"": 1, ""2"": 1}"
 6,Patrick's Perfect Team,0,0,0,0,{}
 7,Red man,0,0,0,0,{}
-8,Alex's Astounding Team,2,1,0,0,"{""1"": 2}"
+8,Alex's Astounding Team,2,2,0,0,"{""1"": 2}"
