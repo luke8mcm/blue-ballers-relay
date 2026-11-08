@@ -1,111 +1,111 @@
 team_id,team,player,nba,pos,slot,injury,gp,avg,mpg,l7_gp,l7_avg,l15_gp,l15_avg,l30_gp,l30_avg,pct_owned,espn_id
 1,You Got Serbed,Nikola Jokic,DEN,C,C,ACTIVE,8,57.1,35.9,3,64.7,7,61.9,8,57.1,99.9,3112335
 1,You Got Serbed,Donovan Mitchell,CLE,PG/SG,SG,ACTIVE,10,42.0,33.5,4,46.0,9,40.9,10,42.0,99.9,3908809
-1,You Got Serbed,Kyrie Irving,DAL,PG,PG,ACTIVE,7,39.1,29.7,2,34.0,5,42.0,7,39.1,95.0,6442
+1,You Got Serbed,Kyrie Irving,DAL,PG,PG,ACTIVE,7,39.1,29.7,2,34.0,5,42.0,7,39.1,95.1,6442
 1,You Got Serbed,Jalen Brunson,NYK,PG,UTIL,ACTIVE,9,38.7,33.9,3,44.0,7,42.7,9,38.7,99.8,3934672
-1,You Got Serbed,Dejounte Murray,NOP,PG/SG,G,ACTIVE,6,38.2,34.8,2,31.5,4,34.0,6,38.2,88.8,3907497
+1,You Got Serbed,Dejounte Murray,NOP,PG/SG,G,ACTIVE,6,38.2,34.8,2,31.5,4,34.0,6,38.2,88.9,3907497
 1,You Got Serbed,Kevin Durant,HOU,SF/PF,PF,ACTIVE,10,35.3,34.2,3,30.7,8,34.4,10,35.3,99.9,3202
 1,You Got Serbed,Pascal Siakam,IND,PF,F,ACTIVE,9,35.3,32.0,3,37.0,7,36.3,9,35.3,98.8,3149673
-1,You Got Serbed,Caleb Wilson,CHI,SF,SF,ACTIVE,8,35.1,32.5,2,28.0,6,39.0,8,35.1,90.5,5095151
+1,You Got Serbed,Caleb Wilson,CHI,SF,SF,ACTIVE,8,35.1,32.5,2,28.0,6,39.0,8,35.1,90.6,5095151
 1,You Got Serbed,Onyeka Okongwu,ATL,C,BE,ACTIVE,11,33.0,29.5,4,43.5,9,36.0,11,33.0,84.1,4431680
-1,You Got Serbed,Jalen Duren,DET,C,IR,OUT,2,31.5,19.0,0,0,0,0,2,31.5,92.5,4433621
-1,You Got Serbed,James Harden,CLE,PG/SG,UTIL,ACTIVE,10,30.1,33.3,4,29.2,9,31.1,10,30.1,99.5,3992
-1,You Got Serbed,Damian Lillard,POR,PG,UTIL,ACTIVE,9,30.1,29.4,4,31.0,7,27.3,9,30.1,91.7,6606
-1,You Got Serbed,Jrue Holiday,POR,PG/SG,BE,ACTIVE,9,29.0,25.9,4,29.2,7,29.1,9,29.0,47.4,3995
-1,You Got Serbed,Dillon Brooks,PHX,SG/SF,BE,ACTIVE,8,27.5,31.2,4,26.8,7,30.4,8,27.5,40.3,3155526
+1,You Got Serbed,Jalen Duren,DET,C,IR,OUT,2,31.5,19.0,1,0,1,0,2,31.5,92.4,4433621
+1,You Got Serbed,James Harden,CLE,PG/SG,UTIL,ACTIVE,10,30.1,33.3,4,29.2,9,31.1,10,30.1,99.4,3992
+1,You Got Serbed,Damian Lillard,POR,PG,UTIL,ACTIVE,9,30.1,29.4,4,31.0,7,27.3,9,30.1,91.5,6606
+1,You Got Serbed,Darryn Peterson,UTA,PG/SG,BE,ACTIVE,9,29.0,30.2,3,39.0,7,32.1,9,29.0,67.5,5041955
+1,You Got Serbed,Dillon Brooks,PHX,SG/SF,BE,ACTIVE,8,27.5,31.2,4,26.8,7,30.4,8,27.5,39.4,3155526
 2,Siward’s super team ,Stephen Curry,GSW,PG,UTIL,ACTIVE,8,50.2,29.8,3,55.0,6,56.3,8,50.2,99.7,3975
 2,Siward’s super team ,Cade Cunningham,DET,PG,PG,ACTIVE,8,48.1,33.5,2,65.5,6,51.3,8,48.1,99.9,4432166
 2,Siward’s super team ,Scottie Barnes,TOR,SG/SF,SF,DAY_TO_DAY,8,42.4,33.4,3,39.7,6,42.2,8,42.4,99.6,4433134
 2,Siward’s super team ,Evan Mobley,CLE,PF/C,C,ACTIVE,10,39.6,32.8,4,37.0,9,40.7,10,39.6,99.2,4432158
-2,Siward’s super team ,Franz Wagner,ORL,SF/PF,F,ACTIVE,9,38.7,36.4,4,45.0,7,41.4,9,38.7,91.3,4566434
-2,Siward’s super team ,Immanuel Quickley,TOR,PG/SG,UTIL,DAY_TO_DAY,8,34.4,31.8,3,34.0,6,34.5,8,34.4,77.4,4395724
+2,Siward’s super team ,Franz Wagner,ORL,SF/PF,F,ACTIVE,9,38.7,36.4,4,45.0,7,41.4,9,38.7,91.4,4566434
+2,Siward’s super team ,Immanuel Quickley,TOR,PG/SG,UTIL,DAY_TO_DAY,8,34.4,31.8,3,34.0,6,34.5,8,34.4,77.2,4395724
 2,Siward’s super team ,RJ Barrett,TOR,SG/SF,BE,ACTIVE,9,34.0,33.0,4,35.0,7,33.3,9,34.0,81.8,4395625
-2,Siward’s super team ,De'Aaron Fox,SAS,PG/SG,G,ACTIVE,10,32.3,29.5,4,22.8,8,30.5,10,32.3,96.0,4066259
-2,Siward’s super team ,Josh Hart,NYK,SG/SF,UTIL,OUT,7,29.0,31.7,1,36.0,5,25.8,7,29.0,76.5,3062679
-2,Siward’s super team ,Trey Murphy III,NOP,SG/SF,SG,ACTIVE,8,28.5,33.1,2,33.5,6,31.8,8,28.5,82.8,4397688
-2,Siward’s super team ,Jalen Green,PHX,SG/SF,BE,ACTIVE,8,21.4,29.1,4,25.8,7,22.1,8,21.4,65.0,4437244
-2,Siward’s super team ,John Collins,DET,PF/C,PF,ACTIVE,8,19.5,25.5,2,16.5,6,16.3,8,19.5,54.1,3908845
-2,Siward’s super team ,DeMar DeRozan,DEN,SF/PF,BE,ACTIVE,7,18.3,24.7,2,16.0,6,20.8,7,18.3,59.0,3978
+2,Siward’s super team ,De'Aaron Fox,SAS,PG/SG,G,ACTIVE,10,32.3,29.5,4,22.8,8,30.5,10,32.3,95.8,4066259
+2,Siward’s super team ,Josh Hart,NYK,SG/SF,UTIL,DAY_TO_DAY,7,29.0,31.7,1,36.0,5,25.8,7,29.0,76.2,3062679
+2,Siward’s super team ,Trey Murphy III,NOP,SG/SF,SG,ACTIVE,8,28.5,33.1,2,33.5,6,31.8,8,28.5,83.1,4397688
+2,Siward’s super team ,Jalen Green,PHX,SG/SF,BE,ACTIVE,8,21.4,29.1,4,25.8,7,22.1,8,21.4,64.5,4437244
+2,Siward’s super team ,John Collins,DET,PF/C,PF,ACTIVE,8,19.5,25.5,2,16.5,6,16.3,8,19.5,54.4,3908845
+2,Siward’s super team ,DeMar DeRozan,DEN,SF/PF,BE,ACTIVE,7,18.3,24.7,2,16.0,6,20.8,7,18.3,58.6,3978
 2,Siward’s super team ,Nic Claxton,CHI,C,IR,OUT,0,0,0,0,0,0,0,0,0,42.3,4278067
 3,Newman,Giannis Antetokounmpo,MIA,PF/C,PF,ACTIVE,9,51.4,32.8,3,49.0,7,50.6,9,51.4,99.9,3032977
 3,Newman,Jayson Tatum,BOS,SF/PF,SF,ACTIVE,8,47.1,34.4,3,48.3,6,46.8,8,47.1,99.9,4065648
 3,Newman,Jamal Murray,DEN,PG,UTIL,ACTIVE,8,45.2,36.5,3,42.7,7,51.0,8,45.2,99.4,3936299
-3,Newman,Anthony Davis,WAS,PF/C,F,OUT,8,42.9,33.1,2,55.5,6,44.7,8,42.9,99.3,6583
-3,Newman,Tyler Herro,MIL,PG/SG,UTIL,ACTIVE,9,37.3,31.1,3,40.7,7,34.7,9,37.3,93.0,4395725
+3,Newman,Anthony Davis,WAS,PF/C,F,DAY_TO_DAY,8,42.9,33.1,2,55.5,6,44.7,8,42.9,99.3,6583
+3,Newman,Tyler Herro,MIL,PG/SG,UTIL,ACTIVE,9,37.3,31.1,3,40.7,7,34.7,9,37.3,93.2,4395725
 3,Newman,Deni Avdija,POR,SF/PF,UTIL,ACTIVE,9,37.1,32.1,4,33.5,7,36.4,9,37.1,98.3,4683021
-3,Newman,Ayo Dosunmu,MIN,PG/SG,SG,ACTIVE,10,35.6,31.5,3,43.7,8,35.1,10,35.6,79.3,4397002
-3,Newman,Keyonte George,UTA,PG/SG,G,ACTIVE,9,33.8,32.3,3,36.0,7,33.3,9,33.8,88.0,4433627
-3,Newman,Donovan Clingan,POR,C,BE,ACTIVE,9,33.1,24.8,4,39.5,7,34.3,9,33.1,82.9,5105565
+3,Newman,Ayo Dosunmu,MIN,PG/SG,SG,ACTIVE,10,35.6,31.5,3,43.7,8,35.1,10,35.6,79.8,4397002
+3,Newman,Keyonte George,UTA,PG/SG,G,DAY_TO_DAY,9,33.8,32.3,3,36.0,7,33.3,9,33.8,88.1,4433627
+3,Newman,Donovan Clingan,POR,C,BE,ACTIVE,9,33.1,24.8,4,39.5,7,34.3,9,33.1,82.8,5105565
 3,Newman,Joel Embiid,PHI,C,C,DAY_TO_DAY,8,31.1,32.2,3,23.3,6,29.5,8,31.1,95.4,3059318
-3,Newman,Stephon Castle,SAS,PG/SG,BE,ACTIVE,10,30.5,28.9,4,30.2,8,30.4,10,30.5,95.6,4845367
-3,Newman,Alex Sarr,WAS,PF/C,BE,ACTIVE,9,27.8,26.0,3,33.3,7,29.4,9,27.8,76.0,5160992
-3,Newman,Nolan Traore,BKN,PG,PG,ACTIVE,9,26.7,22.2,4,39.8,8,30.5,9,26.7,20.3,5279130
-3,Newman,Kon Knueppel,CHA,SG/SF,IR,OUT,1,-2.0,6.0,1,-2.0,1,-2.0,1,-2.0,87.4,5061575
+3,Newman,Stephon Castle,SAS,PG/SG,BE,ACTIVE,10,30.5,28.9,4,30.2,8,30.4,10,30.5,95.5,4845367
+3,Newman,Alex Sarr,WAS,PF/C,BE,ACTIVE,9,27.8,26.0,3,33.3,7,29.4,9,27.8,75.9,5160992
+3,Newman,Nolan Traore,BKN,PG,PG,ACTIVE,9,26.7,22.2,4,39.8,8,30.5,9,26.7,23.2,5279130
+3,Newman,Kon Knueppel,CHA,SG/SF,IR,OUT,1,-2.0,6.0,1,-2.0,1,-2.0,1,-2.0,87.2,5061575
 4,Dylan's Daring Team,Luka Doncic,LAL,PG,PG,DAY_TO_DAY,9,67.0,35.9,4,77.2,7,76.0,9,67.0,99.9,3945274
-4,Dylan's Daring Team,Tyrese Haliburton,IND,PG/SG,UTIL,OUT,4,51.2,33.0,0,0,2,56.0,4,51.2,98.4,4396993
-4,Dylan's Daring Team,Paolo Banchero,ORL,SF/PF,IR,OUT,2,45.0,33.5,0,0,0,0,2,45.0,93.7,4432573
-4,Dylan's Daring Team,Jalen Johnson,ATL,PF,PF,ACTIVE,8,42.0,33.1,1,50.0,6,41.0,8,42.0,99.1,4701230
+4,Dylan's Daring Team,Tyrese Haliburton,IND,PG/SG,BE,OUT,4,51.2,33.0,1,0,2,56.0,4,51.2,98.4,4396993
+4,Dylan's Daring Team,Paolo Banchero,ORL,SF/PF,IR,OUT,2,45.0,33.5,1,0,1,0,2,45.0,93.6,4432573
+4,Dylan's Daring Team,Jalen Johnson,ATL,PF,PF,ACTIVE,8,42.0,33.1,1,50.0,6,41.0,8,42.0,99.2,4701230
 4,Dylan's Daring Team,Ty Jerome,MEM,PG/SG,UTIL,ACTIVE,8,41.9,30.5,3,42.0,6,36.5,8,41.9,93.9,4065733
 4,Dylan's Daring Team,Jaylen Brown,PHI,SG/SF,SG,ACTIVE,9,38.3,36.0,3,47.7,7,38.1,9,38.3,99.8,3917376
-4,Dylan's Daring Team,Kyshawn George,WAS,SG/SF,F,ACTIVE,10,36.5,33.1,4,48.8,8,40.8,10,36.5,67.2,5174563
-4,Dylan's Daring Team,VJ Edgecombe,PHI,SG,G,ACTIVE,9,31.2,33.3,3,38.3,7,32.9,9,31.2,87.3,5124612
-4,Dylan's Daring Team,Ausar Thompson,DET,SF/PF,SF,ACTIVE,7,29.1,27.4,2,31.5,5,31.2,7,29.1,76.6,4684742
-4,Dylan's Daring Team,Darius Garland,LAC,PG,UTIL,ACTIVE,8,28.0,33.8,3,27.0,6,26.3,8,28.0,90.8,4396907
-4,Dylan's Daring Team,OG Anunoby,NYK,SF/PF,BE,ACTIVE,9,27.6,33.1,3,30.0,7,27.9,9,27.6,85.3,3934719
-4,Dylan's Daring Team,AJ Dybantsa,WAS,SF,BE,ACTIVE,6,26.3,31.5,4,26.2,6,26.3,6,26.3,85.5,5142718
-4,Dylan's Daring Team,Kel'el Ware,MIL,C,C,ACTIVE,9,19.2,18.2,3,8.7,7,21.1,9,19.2,58.2,5105623
-4,Dylan's Daring Team,Ivica Zubac,IND,C,BE,ACTIVE,5,19.0,20.6,2,15.0,3,12.0,5,19.0,71.5,4017837
+4,Dylan's Daring Team,Kyshawn George,WAS,SG/SF,F,ACTIVE,10,36.5,33.1,4,48.8,8,40.8,10,36.5,67.9,5174563
+4,Dylan's Daring Team,Duncan Robinson,DET,SG/SF,UTIL,ACTIVE,8,34.8,31.0,2,49.0,6,36.5,8,34.8,58.5,3157465
+4,Dylan's Daring Team,VJ Edgecombe,PHI,SG,G,ACTIVE,9,31.2,33.3,3,38.3,7,32.9,9,31.2,87.5,5124612
+4,Dylan's Daring Team,Ausar Thompson,DET,SF/PF,SF,ACTIVE,7,29.1,27.4,2,31.5,5,31.2,7,29.1,77.1,4684742
+4,Dylan's Daring Team,Darius Garland,LAC,PG,UTIL,ACTIVE,8,28.0,33.8,3,27.0,6,26.3,8,28.0,91.0,4396907
+4,Dylan's Daring Team,OG Anunoby,NYK,SF/PF,BE,ACTIVE,9,27.6,33.1,3,30.0,7,27.9,9,27.6,85.1,3934719
+4,Dylan's Daring Team,AJ Dybantsa,WAS,SF,BE,ACTIVE,6,26.3,31.5,4,26.2,6,26.3,6,26.3,85.3,5142718
+4,Dylan's Daring Team,Ivica Zubac,IND,C,BE,ACTIVE,5,19.0,20.6,2,15.0,3,12.0,5,19.0,71.4,4017837
 5,Ben's Best Crew,Tyrese Maxey,PHI,PG/SG,SG,ACTIVE,10,46.2,36.6,3,40.7,8,43.5,10,46.2,99.9,4431678
 5,Ben's Best Crew,Karl-Anthony Towns,NYK,C,UTIL,ACTIVE,9,41.2,31.6,3,41.0,7,42.1,9,41.2,99.9,3136195
-5,Ben's Best Crew,Zion Williamson,NOP,PF/C,PF,ACTIVE,9,40.9,33.3,3,38.7,7,41.1,9,40.9,96.0,4395628
-5,Ben's Best Crew,Miles Bridges,PHX,SF/PF,UTIL,ACTIVE,8,40.1,32.4,4,47.5,7,44.0,8,40.1,83.4,4066383
-5,Ben's Best Crew,Davion Mitchell,MIA,PG,PG,ACTIVE,9,38.1,35.0,3,41.7,7,40.0,9,38.1,75.3,4278053
-5,Ben's Best Crew,Kawhi Leonard,TOR,SF/PF,IR,OUT,2,37.5,26.0,0,0,0,0,2,37.5,94.6,6450
+5,Ben's Best Crew,Zion Williamson,NOP,PF/C,PF,ACTIVE,9,40.9,33.3,3,38.7,7,41.1,9,40.9,96.2,4395628
+5,Ben's Best Crew,Miles Bridges,PHX,SF/PF,UTIL,ACTIVE,8,40.1,32.4,4,47.5,7,44.0,8,40.1,83.5,4066383
+5,Ben's Best Crew,Davion Mitchell,MIA,PG,PG,ACTIVE,9,38.1,35.0,3,41.7,7,40.0,9,38.1,75.8,4278053
+5,Ben's Best Crew,Kawhi Leonard,TOR,SF/PF,IR,OUT,2,37.5,26.0,1,0,1,0,2,37.5,94.5,6450
 5,Ben's Best Crew,Dyson Daniels,ATL,PG/SG,UTIL,ACTIVE,11,37.3,30.3,4,42.5,9,33.7,11,37.3,94.7,4869342
 5,Ben's Best Crew,Trae Young,WAS,PG,G,ACTIVE,10,36.1,35.2,4,28.5,8,34.8,10,36.1,99.3,4277905
-5,Ben's Best Crew,Michael Porter Jr.,BKN,SF/PF,SF,ACTIVE,9,35.6,33.4,4,33.5,8,34.8,9,35.6,96.7,4278104
-5,Ben's Best Crew,Fred VanVleet,HOU,PG/SG,BE,ACTIVE,8,32.5,30.1,3,28.3,6,29.5,8,32.5,73.3,2991230
+5,Ben's Best Crew,Michael Porter Jr.,BKN,SF/PF,SF,ACTIVE,9,35.6,33.4,4,33.5,8,34.8,9,35.6,96.8,4278104
+5,Ben's Best Crew,Fred VanVleet,HOU,PG/SG,BE,ACTIVE,8,32.5,30.1,3,28.3,6,29.5,8,32.5,73.1,2991230
 5,Ben's Best Crew,Ace Bailey,UTA,SF/PF,F,ACTIVE,9,26.6,30.4,3,16.0,7,27.7,9,26.6,59.9,4873138
-5,Ben's Best Crew,Aaron Gordon,DEN,PF,BE,ACTIVE,8,24.1,29.1,3,21.3,7,21.7,8,24.1,49.1,3064290
-5,Ben's Best Crew,Rudy Gobert,MIN,C,C,ACTIVE,9,22.1,29.9,3,26.7,7,23.9,9,22.1,75.2,3032976
-5,Ben's Best Crew,Jared McCain,OKC,PG/SG,BE,ACTIVE,10,20.2,25.2,4,27.5,8,20.9,10,20.2,29.9,4683778
-6,Patrick's Perfect Team,Anthony Edwards,MIN,SG/SF,IR,OUT,4,51.2,33.8,0,0,2,51.0,4,51.2,98.8,4594268
+5,Ben's Best Crew,Aaron Gordon,DEN,PF,BE,ACTIVE,8,24.1,29.1,3,21.3,7,21.7,8,24.1,48.3,3064290
+5,Ben's Best Crew,Rudy Gobert,MIN,C,C,ACTIVE,9,22.1,29.9,3,26.7,7,23.9,9,22.1,75.4,3032976
+5,Ben's Best Crew,Jared McCain,OKC,PG/SG,BE,ACTIVE,10,20.2,25.2,4,27.5,8,20.9,10,20.2,29.8,4683778
+6,Patrick's Perfect Team,Anthony Edwards,MIN,SG/SF,IR,OUT,4,51.2,33.8,1,0,2,51.0,4,51.2,98.8,4594268
 6,Patrick's Perfect Team,Alperen Sengun,HOU,C,BE,ACTIVE,8,48.2,34.8,3,48.7,6,49.7,8,48.2,99.4,4871144
-6,Patrick's Perfect Team,Paul George,BOS,SF/PF,UTIL,ACTIVE,8,40.0,30.4,3,36.0,6,36.0,8,40.0,94.5,4251
+6,Patrick's Perfect Team,Paul George,BOS,SF/PF,UTIL,ACTIVE,8,40.0,30.4,3,36.0,6,36.0,8,40.0,94.7,4251
 6,Patrick's Perfect Team,Devin Booker,PHX,PG/SG,SG,ACTIVE,8,38.8,35.0,4,40.2,7,39.1,8,38.8,99.8,3136193
 6,Patrick's Perfect Team,LeBron James,PHI,SF/PF,UTIL,ACTIVE,8,37.2,32.9,3,30.7,6,36.8,8,37.2,99.3,1966
-6,Patrick's Perfect Team,Brandin Podziemski,GSW,PG/SG,BE,ACTIVE,8,34.5,34.0,4,33.8,7,34.7,8,34.5,75.9,4709138
-6,Patrick's Perfect Team,Ja Morant,POR,PG,PG,OUT,4,33.0,26.0,0,0,2,27.5,4,33.0,82.4,4279888
-6,Patrick's Perfect Team,Andrew Nembhard,IND,PG/SG,UTIL,ACTIVE,8,33.0,33.1,3,30.7,6,32.5,8,33.0,71.0,4395712
-6,Patrick's Perfect Team,Cedric Coward,MEM,SG/SF,SF,ACTIVE,8,32.4,28.5,3,31.7,7,33.7,8,32.4,58.6,4903027
+6,Patrick's Perfect Team,Brandin Podziemski,GSW,PG/SG,BE,ACTIVE,8,34.5,34.0,4,33.8,7,34.7,8,34.5,75.8,4709138
+6,Patrick's Perfect Team,Ja Morant,POR,PG,PG,OUT,4,33.0,26.0,1,0,2,27.5,4,33.0,82.3,4279888
+6,Patrick's Perfect Team,Andrew Nembhard,IND,PG/SG,UTIL,ACTIVE,8,33.0,33.1,3,30.7,6,32.5,8,33.0,70.7,4395712
+6,Patrick's Perfect Team,Cedric Coward,MEM,SG/SF,SF,ACTIVE,8,32.4,28.5,3,31.7,7,33.7,8,32.4,58.3,4903027
 6,Patrick's Perfect Team,Amen Thompson,HOU,SG/SF,BE,ACTIVE,10,31.2,33.2,3,25.0,8,27.9,10,31.2,99.0,4684740
-6,Patrick's Perfect Team,Cameron Boozer,MEM,PF,BE,ACTIVE,9,31.1,32.0,3,22.3,7,31.0,9,31.1,89.1,5041935
-6,Patrick's Perfect Team,Desmond Bane,ORL,SG/SF,G,OUT,8,26.9,34.5,3,26.7,6,31.5,8,26.9,90.6,4066320
-6,Patrick's Perfect Team,Jaren Jackson Jr.,UTA,PF/C,C,OUT,4,25.2,26.0,0,0,2,13.5,4,25.2,62.4,4277961
+6,Patrick's Perfect Team,Cameron Boozer,MEM,PF,BE,ACTIVE,9,31.1,32.0,3,22.3,7,31.0,9,31.1,89.0,5041935
+6,Patrick's Perfect Team,Desmond Bane,ORL,SG/SF,G,DAY_TO_DAY,8,26.9,34.5,3,26.7,6,31.5,8,26.9,90.2,4066320
+6,Patrick's Perfect Team,Jaren Jackson Jr.,UTA,PF/C,C,OUT,4,25.2,26.0,1,0,2,13.5,4,25.2,62.2,4277961
 6,Patrick's Perfect Team,Brandon Ingram,LAC,SF/PF,F,OUT,0,0,0,0,0,0,0,0,0,66.2,3913176
 7,Red man,Victor Wembanyama,SAS,C,UTIL,ACTIVE,10,63.3,30.3,4,64.5,8,69.1,10,63.3,100.0,5104157
-7,Red man,Darius Acuff Jr.,SAC,PG,G,ACTIVE,9,37.9,36.8,3,41.3,7,43.0,9,37.9,85.8,5142620
-7,Red man,Yaxel Lendeborg,GSW,SF/PF,SF,ACTIVE,10,37.5,32.2,4,46.0,8,39.5,10,37.5,93.2,5175737
-7,Red man,Jabari Smith Jr.,HOU,PF/C,PF,ACTIVE,10,36.9,35.0,3,35.0,8,36.5,10,36.9,84.7,4432639
-7,Red man,Jaden McDaniels,MIN,SF/PF,F,ACTIVE,10,35.2,34.0,3,32.3,8,34.5,10,35.2,88.8,4431671
+7,Red man,Darius Acuff Jr.,SAC,PG,G,ACTIVE,9,37.9,36.8,3,41.3,7,43.0,9,37.9,86.2,5142620
+7,Red man,Yaxel Lendeborg,GSW,SF/PF,SF,ACTIVE,10,37.5,32.2,4,46.0,8,39.5,10,37.5,93.3,5175737
+7,Red man,Jabari Smith Jr.,HOU,PF/C,PF,ACTIVE,10,36.9,35.0,3,35.0,8,36.5,10,36.9,84.8,4432639
+7,Red man,Jaden McDaniels,MIN,SF/PF,F,ACTIVE,10,35.2,34.0,3,32.3,8,34.5,10,35.2,89.0,4431671
 7,Red man,LaMelo Ball,MIN,PG,UTIL,ACTIVE,10,33.7,27.6,3,42.7,8,33.6,10,33.7,99.6,4432816
 7,Red man,Dylan Harper,SAS,PG/SG,PG,ACTIVE,10,33.2,31.9,4,31.2,8,34.5,10,33.2,90.6,5037871
-7,Red man,Zach LaVine,SAC,SG/SF,SG,ACTIVE,9,31.7,33.6,3,27.3,7,31.0,9,31.7,81.0,3064440
-7,Red man,Jarrett Allen,CLE,C,C,OUT,8,31.2,25.1,2,14.0,7,31.9,8,31.2,88.6,4066328
+7,Red man,Zach LaVine,SAC,SG/SF,SG,ACTIVE,9,31.7,33.6,3,27.3,7,31.0,9,31.7,81.2,3064440
+7,Red man,Jarrett Allen,CLE,C,C,DAY_TO_DAY,8,31.2,25.1,2,14.0,7,31.9,8,31.2,88.4,4066328
 7,Red man,Lauri Markkanen,UTA,SF/PF,UTIL,DAY_TO_DAY,8,30.6,30.9,3,41.0,6,31.0,8,30.6,89.7,4066336
-7,Red man,Naz Reid,CHA,PF/C,BE,ACTIVE,10,26.6,29.3,3,28.0,8,25.6,10,26.6,90.4,4396971
+7,Red man,Naz Reid,CHA,PF/C,BE,ACTIVE,10,26.6,29.3,3,28.0,8,25.6,10,26.6,90.2,4396971
 7,Red man,Josh Giddey,CHI,PG/SG,BE,ACTIVE,8,26.0,27.2,2,28.5,6,30.7,8,26.0,92.8,4871145
-7,Red man,Norman Powell,CHI,SG/SF,BE,ACTIVE,8,25.8,28.9,2,13.5,6,26.3,8,25.8,79.8,2595516
+7,Red man,Norman Powell,CHI,SG/SF,BE,DAY_TO_DAY,8,25.8,28.9,2,13.5,6,26.3,8,25.8,79.7,2595516
 8,Alex's Astounding Team,Cooper Flagg,DAL,SF/PF,SF,ACTIVE,8,48.5,34.4,3,33.3,6,48.7,8,48.5,99.9,5041939
 8,Alex's Astounding Team,Shai Gilgeous-Alexander,OKC,PG,UTIL,ACTIVE,10,47.5,32.9,4,54.8,8,47.9,10,47.5,99.9,4278073
-8,Alex's Astounding Team,Walker Kessler,LAL,C,C,ACTIVE,10,41.9,31.2,4,45.2,8,36.9,10,41.9,93.4,4433136
+8,Alex's Astounding Team,Walker Kessler,LAL,C,C,ACTIVE,10,41.9,31.2,4,45.2,8,36.9,10,41.9,93.6,4433136
 8,Alex's Astounding Team,Domantas Sabonis,SAC,PF/C,UTIL,ACTIVE,9,41.2,35.6,3,30.0,7,36.7,9,41.2,99.5,3155942
 8,Alex's Astounding Team,Bam Adebayo,MIA,PF/C,UTIL,ACTIVE,9,40.2,32.7,3,46.3,7,43.7,9,40.2,99.3,4066261
 8,Alex's Astounding Team,Anthony Black,ORL,PG/SG,BE,ACTIVE,6,36.5,30.2,3,38.7,6,36.5,6,36.5,51.0,4712849
 8,Alex's Astounding Team,Austin Reaves,LAL,PG/SG,PG,ACTIVE,10,36.0,36.1,4,32.2,8,32.8,10,36.0,99.3,4066457
-8,Alex's Astounding Team,Ajay Mitchell,OKC,PG/SG,BE,ACTIVE,10,34.0,27.2,4,33.5,8,37.0,10,34.0,72.7,4900671
-8,Alex's Astounding Team,Julius Randle,BKN,PF,F,ACTIVE,9,33.0,33.8,4,33.5,8,30.2,9,33.0,92.6,3064514
-8,Alex's Astounding Team,Nickeil Alexander-Walker,ATL,PG/SG,BE,ACTIVE,11,32.8,30.6,4,37.2,9,31.3,11,32.8,94.1,4278039
-8,Alex's Astounding Team,Derrick White,BOS,PG/SG,SG,ACTIVE,9,29.0,30.1,4,29.8,7,28.0,9,29.0,93.8,3078576
-8,Alex's Astounding Team,Payton Pritchard,BOS,PG/SG,G,ACTIVE,9,24.4,26.3,4,19.8,7,27.3,9,24.4,69.8,4066354
-8,Alex's Astounding Team,Matas Buzelis,CHI,SF/PF,PF,ACTIVE,8,18.9,25.1,2,14.5,6,20.2,8,18.9,61.3,4711294
+8,Alex's Astounding Team,Ajay Mitchell,OKC,PG/SG,BE,ACTIVE,10,34.0,27.2,4,33.5,8,37.0,10,34.0,72.5,4900671
+8,Alex's Astounding Team,Julius Randle,BKN,PF,F,ACTIVE,9,33.0,33.8,4,33.5,8,30.2,9,33.0,92.7,3064514
+8,Alex's Astounding Team,Nickeil Alexander-Walker,ATL,PG/SG,BE,ACTIVE,11,32.8,30.6,4,37.2,9,31.3,11,32.8,94.0,4278039
+8,Alex's Astounding Team,Derrick White,BOS,PG/SG,SG,ACTIVE,9,29.0,30.1,4,29.8,7,28.0,9,29.0,94.0,3078576
+8,Alex's Astounding Team,Payton Pritchard,BOS,PG/SG,G,ACTIVE,9,24.4,26.3,4,19.8,7,27.3,9,24.4,70.3,4066354
+8,Alex's Astounding Team,Matas Buzelis,CHI,SF/PF,PF,ACTIVE,8,18.9,25.1,2,14.5,6,20.2,8,18.9,61.5,4711294
